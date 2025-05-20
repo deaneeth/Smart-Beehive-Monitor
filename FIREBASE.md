@@ -178,7 +178,6 @@ After development, secure your database with appropriate rules:
 2. Set up rules to restrict access. Example:
 
 ```
-
 {
   "rules": {
     ".read": "auth != null",
@@ -200,7 +199,6 @@ After development, secure your database with appropriate rules:
 }
 
 For public dashboards without authentication, you can set read permissions to true and restrict write permissions.
-
 ```
 
 ## 7. Web Dashboard Integration
@@ -215,7 +213,6 @@ NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
 NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-project-id.appspot.com
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
 NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
-
 ```
 
 ## 8. Firebase Storage (Optional)
