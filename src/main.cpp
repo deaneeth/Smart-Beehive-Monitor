@@ -28,7 +28,7 @@
 #define GPS_RX 16
 #define GPS_TX 17
 #define GPS_POWER_PIN 13  // Optional power control
-#define BATTERY_VOLTAGE_PIN 34 // ADC pin for battery voltage
+#define BATTERY_VOLTAGE_PIN 34 // ADC pin for battery voltage checking
 
 // Watchdog timeout
 #define WDT_TIMEOUT 30  // 30 seconds

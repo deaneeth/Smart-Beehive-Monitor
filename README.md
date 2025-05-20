@@ -57,10 +57,9 @@ This project creates a comprehensive monitoring solution for beekeepers, providi
 
 ## 📝 Documentation
 
-- [Wiring Guide](WIRING.md) - Detailed connection instructions
-- [Firebase Setup](FIREBASE.md) - Database configuration steps
-- [Web Dashboard](DASHBOARD.md) - Web interface setup
-- [Component List](docs/BOM.md) - Complete bill of materials
+- [Component List](Docs/BOM.md) - Complete bill of materials
+- [Wiring Guide](Docs/Smart_Beehive_Monitoring_System-Wiring_Guide.pdf) - Detailed connection guide
+- [Firebase Setup](FIREBASE.md) - Database configuration & strucutre steps
 
 ## ⚙️ Setup & Installation
 
@@ -77,3 +76,26 @@ This project creates a comprehensive monitoring solution for beekeepers, providi
 5. Follow calibration steps in [SETUP.md](SETUP.md)
 
 ## 📊 Data Structure
+
+smart-beehive/
+├─ environment/
+│  ├─ current/
+│  └─ history/
+├─ beeActivity/
+├─ weight/
+├─ location/
+└─ system/
+
+## 📱 Dashboard Preview
+
+<p align="center">
+  <img src="assests/dashboard-preview.png" alt="Dashboard Preview" width="600">
+</p>
+
+## 🤝 Contributing
+
+Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
