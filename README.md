@@ -7,7 +7,7 @@
 > ESP32-based IoT system that monitors beehive conditions and uploads data to Firebase in real-time, enabling beekeepers to remotely track hive health and activity.
 
 <p align="center">
-  <img src="assests/BeehivePrototype.png" alt="Smart Beehive Prototype" width="600">
+  <img src="assests/BeehivePrototype.png" alt="Smart Beehive Prototype" width="850">
 </p>
 
 ## 📋 Overview
@@ -41,10 +41,10 @@ This project creates a comprehensive monitoring solution for beekeepers, providi
 ## 🛠️ Hardware
 
 <p align="center">
-  <img src="assests/HardwareSystem.png" alt="Smart Beehive System Hardware" width="600">
+  <img src="assests/HardwareSystem.png" alt="Smart Beehive System Hardware" width="800">
 </p>
 
-### Main Components
+### 🔭 Main Components
 - ESP32-WROOM-32U Development Board
 - BME680 Environmental Sensor
 - TCRT5000 IR Sensor Array (2 kits)
@@ -53,7 +53,7 @@ This project creates a comprehensive monitoring solution for beekeepers, providi
 - HC-SR501 PIR Motion Sensor
 - NEO-6M GPS Module
 
-### Power System
+### 🔋 Power System
 - 18650 3.7V 3500mAh Batteries (2x)
 - 5W 8.8V Solar Panel
 - TP4056 Charging Module
@@ -67,12 +67,12 @@ This project creates a comprehensive monitoring solution for beekeepers, providi
 
 ## ⚙️ Setup & Installation
 
-### Prerequisites
+### 📜 Prerequisites
 - PlatformIO IDE
 - Firebase Account
 - Required libraries (configured in platformio.ini)
 
-### Quick Start
+### ⚡ Quick Start
 1. Clone this repository
 2. Open in PlatformIO
 3. Configure WiFi and Firebase credentials
@@ -81,6 +81,7 @@ This project creates a comprehensive monitoring solution for beekeepers, providi
 
 ## 📊 Data Structure
 
+```
 smart-beehive/
 ├─ environment/
 │  ├─ current/
@@ -89,11 +90,12 @@ smart-beehive/
 ├─ weight/
 ├─ location/
 └─ system/
+```
 
 ## 📱 Dashboard Preview
 
 <p align="center">
-  <img src="assests/dashboard-preview.png" alt="Dashboard Preview" width="600">
+  <img src="assests/dashboard-preview.png" alt="Dashboard Preview" width="1000">
 </p>
 
 ## 🤝 Contributing
