@@ -45,10 +45,13 @@ Update the following constants in your ESP32 code (`src/main.cpp`):
 #define WIFI_SSID "YourSSID"
 #define WIFI_PASSWORD "YourPassword"
 
+```
+
 ## 5. Database Structure 
 
 The Smart Beehive Monitoring System uses the following database structure:
 
+```
 smart-beehive/
 ├─ environment/
 │  ├─ current/
@@ -165,6 +168,7 @@ smart-beehive/
          ]
 
 This structure is automatically created by the ESP32 code.
+```
 
 ## 6. Security Rules
 
@@ -172,6 +176,8 @@ After development, secure your database with appropriate rules:
 
 1. Go to Realtime Database > Rules tab
 2. Set up rules to restrict access. Example:
+
+```
 
 {
   "rules": {
@@ -195,10 +201,13 @@ After development, secure your database with appropriate rules:
 
 For public dashboards without authentication, you can set read permissions to true and restrict write permissions.
 
+```
+
 ## 7. Web Dashboard Integration
 
 If using the companion web dashboard, create a .env.local file with:
 
+```
 NEXT_PUBLIC_FIREBASE_API_KEY=YourAPIKey
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-project-id.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_DATABASE_URL=https://your-project-id-default-rtdb.firebaseio.com
@@ -206,6 +215,8 @@ NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
 NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-project-id.appspot.com
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
 NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
+
+```
 
 ## 8. Firebase Storage (Optional)
 
