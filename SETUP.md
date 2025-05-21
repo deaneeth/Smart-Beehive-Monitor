@@ -4,8 +4,8 @@ This guide provides step-by-step instructions for setting up and configuring you
 
 ## Prerequisites
 
-- All components from the [Bill of Materials](docs/BOM.md)
-- Soldering equipment
+- All components from the [Bill of Materials](docs/BOM.md) 
+- Soldering equipment 
 - Basic electronics tools (wire strippers, multimeter, etc.)
 - ESP32 development environment (PlatformIO IDE or Arduino IDE recommended)
 - 3D printed enclosure (optional but recommended)
