@@ -64,7 +64,7 @@ This project creates a comprehensive monitoring solution for beekeepers, providi
 - [Component List](Docs/BOM.md) - Complete bill of materials
 - [Wiring Guide](Docs/Smart_Beehive_Monitoring_System-Wiring_Guide.pdf) - Detailed connection guide
 - [System Setup](SETUP.md) - Step-by-step instructions for setting up and configuring.
-- [Firebase Setup](FIREBASE.md) - Database configuration & strucutre steps
+- [Firebase Setup](FIREBASE.md) - Database configuration & structure steps
 - [Dashboard Setup](DASHBOARD.md) - Web dashboard for visualizing and analyzing sensor data.
 
 ## ⚙️ Setup & Installation

@@ -3,7 +3,7 @@
 The Smart Beehive Monitoring System includes a companion web dashboard for visualizing and analyzing sensor data.
 
 <p align="center">
-  <img src="assets/dashboard-preview.png" alt="Dashboard Overview" width="800">
+  <img src="assets/dashboard-preview.png" alt="Dashboard Overview" width="850">
 </p>
 
 ## Features
@@ -31,34 +31,34 @@ The web dashboard connects to the same Firebase Realtime Database that the ESP32
 3. Dashboard retrieves and visualizes the data
 
 <p align="center">
-  <img src="assets/data-flow-diagram.png" alt="Data Flow" width="800">
+  <img src="assets/data-flow-diagram.png" alt="Data Flow" width="700">
 </p>
 
 ## Key Screens
 
 ### Environmental Monitoring
 <p align="center">
-  <img src="assets/dashboard-environment.png" alt="Environment Screen" width="800">
+  <img src="assets/dashboard-environment.png" alt="Environment Screen" width="850">
 </p>
 
 ### Bee Activity Analysis
 <p align="center">
-  <img src="assets/dashboard-activity.png" alt="Activity Screen" width="800">
+  <img src="assets/dashboard-activity.png" alt="Activity Screen" width="850">
 </p>
 
 ### Weight Tracking
 <p align="center">
-  <img src="assets/dashboard-weight.png" alt="Weight Screen" width="800">
+  <img src="assets/dashboard-weight.png" alt="Weight Screen" width="850">
 </p>
 
 ### Real-Time Location
 <p align="center">
-  <img src="assets/real-time-location.png" alt="Real-Time Location" width="800">
+  <img src="assets/real-time-location.png" alt="Real-Time Location" width="850">
 </p>
 
 ### System Status
 <p align="center">
-  <img src="assets/system-status.png" alt="System Status" width="800">
+  <img src="assets/system-status.png" alt="System Status" width="850">
 </p>
 
 ## Quick Setup

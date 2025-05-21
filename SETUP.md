@@ -4,7 +4,7 @@ This guide provides step-by-step instructions for setting up and configuring you
 
 ## Prerequisites
 
-- All components from the [Bill of Materials](docs/BOM.md) 
+- All components from the [Bill of Materials](Docs/BOM.md) 
 - Soldering equipment 
 - Basic electronics tools (wire strippers, multimeter, etc.)
 - ESP32 development environment (PlatformIO IDE or Arduino IDE recommended)
@@ -50,6 +50,7 @@ Follow the [Wiring Guide](Docs/Smart_Beehive_Monitoring_System-Wiring_Guide.pdf)
 ### 2.2 Configure Project Settings
 
 1. Update WiFi credentials in `src/main.cpp`:
+
    ```
    #define WIFI_SSID "YourSSID"
    #define WIFI_PASSWORD "YourPassword"

@@ -1,8 +1,6 @@
-## 3. CONTRIBUTING.md
-
 # Contributing to Smart Beehive Monitoring System
 
-Thank you for your interest in contributing to this project! This document provides guidelines and instructions for contributors.
+> Thank you for your interest in contributing to this project! This document provides guidelines and instructions for contributors.
 
 ## Code of Conduct
 
@@ -35,6 +33,7 @@ Feature suggestions are welcome! Create an issue with:
 
 1. Fork the repository
 2. Clone your fork:
+
    ```
    git clone https://github.com/deaneeth/Smart-Beehive-Monitor-System.git
    ```
