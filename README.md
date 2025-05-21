@@ -7,7 +7,7 @@
 > ESP32-based IoT system that monitors beehive conditions and uploads data to Firebase in real-time, enabling beekeepers to remotely track hive health and activity.
 
 <p align="center">
-  <img src="assests/BeehivePrototype.png" alt="Smart Beehive Prototype" width="850">
+  <img src="assets/BeehivePrototype.png" alt="Smart Beehive Prototype" width="850">
 </p>
 
 ## 📋 Overview
@@ -41,7 +41,7 @@ This project creates a comprehensive monitoring solution for beekeepers, providi
 ## 🛠️ Hardware
 
 <p align="center">
-  <img src="assests/HardwareSystem.png" alt="Smart Beehive System Hardware" width="800">
+  <img src="assets/HardwareSystem.png" alt="Smart Beehive System Hardware" width="800">
 </p>
 
 ### 🔭 Main Components
