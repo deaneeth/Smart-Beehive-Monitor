@@ -98,4 +98,4 @@ These documents should cover all the necessary aspects of connecting your hardwa
 
 The key is to maintain enough information in the IoT repository to understand the web dashboard's purpose and connection, while keeping the detailed implementation in the separate web dashboard repository.
 
-For additional help, create an issue on the GitHub repository or contact the project maintainers.
+> For additional help, create an issue on the GitHub repository or contact the project maintainers.
