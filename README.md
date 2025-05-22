@@ -104,7 +104,7 @@ smart-beehive/
 
 The dashboard is maintained in a separate repository for better organization and independent development:
 
-[Smart Beehive Monitoring Dashboard Repository](https://github.com/deaneeth/Smart-Beehive-Monitor-System-Dashboard)
+[Smart Beehive Monitor System Dashboard Repository](https://github.com/deaneeth/Smart-Beehive-Monitor-System-Dashboard)
 
 ## 🤝 Contributing
 
