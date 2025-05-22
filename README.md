@@ -100,6 +100,12 @@ smart-beehive/
   <img src="assets/dashboard-preview.png" alt="Dashboard Preview" width="1000">
 </p>
 
+## Dashboard Repository
+
+The dashboard is maintained in a separate repository for better organization and independent development:
+
+[Smart Beehive Monitoring Dashboard Repository](https://github.com/deaneeth/Smart-Beehive-Monitor-System-Dashboard)
+
 ## 🤝 Contributing
 
 Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
