@@ -111,3 +111,6 @@ Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+> Made with ❤️ for the beekeeping community
