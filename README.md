@@ -94,6 +94,8 @@ smart-beehive/
 └─ system/
 ```
 
+you can view the full database strucutre in here [FIREBASE-STRUCUTRE](FIREBASE.md)
+
 ## 📱 Dashboard Preview
 
 <p align="center">

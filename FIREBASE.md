@@ -49,7 +49,7 @@ Update the following constants in your ESP32 code (`src/main.cpp`):
 
 ## 5. Database Structure 
 
-The Smart Beehive Monitoring System uses the following database structure:
+The Smart Beehive Monitoring System uses the following database structure(demo values are added):
 
 ```
 smart-beehive/
