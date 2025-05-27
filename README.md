@@ -104,7 +104,7 @@ you can view the full database strucutre in here [FIREBASE-STRUCUTRE](FIREBASE.m
 
 ## Web Dashboard
 
-The companion web dashboard for this project is available at [Smart-Beehive-Monitor-System-Dashboard](https://github.com/deaneeth/Smart-Beehive-Monitor-System-Dashboard)
+The companion web dashboard for this project is available at [Smart-Beehive-Dashboard](https://github.com/deaneeth/Smart-Beehive-Dashboard)
 
 ## 🤝 Contributing
 
