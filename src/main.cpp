@@ -15,9 +15,7 @@
 // Debug level
 #define DEBUG_MODE 1  // 0=minimal, 1=normal, 2=verbose
 
-// Firebase Helpers
-#include "addons/TokenHelper.h"
-#include "addons/RTDBHelper.h"
+// Removed Firebase Helpers because they are no longer needed. New Firebase library handles this internally.
 
 // Pin Definitions
 #define BME_I2C_ADDR 0x77
