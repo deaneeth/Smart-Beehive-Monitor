@@ -1065,6 +1065,33 @@ float calculateBatteryPercentage(float voltage) {
   return percentage;
 }
 
+void displayBatteryStatus() {
+  float voltage = batteryData.voltage;
+  float percentage = batteryData.percentage;
+  bool isCharging = batteryData.charging;
+  // Or use CHARGING_PIN if you have it: bool isCharging = (digitalRead(CHARGING_PIN) == LOW);
+
+  Serial.println("=== BATTERY STATUS ===");
+  Serial.print("Voltage: ");
+  Serial.print(voltage, 2);
+  Serial.println("V");
+  Serial.print("Percentage: ");
+  Serial.print(percentage, 1);
+  Serial.println("%");
+  Serial.print("Status: ");
+  if (isCharging) {
+    Serial.println("CHARGING");
+  } else if (percentage > 50) {
+    Serial.println("GOOD");
+  } else if (percentage > 20) {
+    Serial.println("LOW");
+  } else {
+    Serial.println("CRITICAL");
+  }
+  Serial.println("=====================");
+}
+
+
 void checkSolarCharging() {
   static float lastVoltage = 0;
   
@@ -1810,7 +1837,8 @@ void handleSerialCommands() {
         Serial.println("u - Upload all current data");
         Serial.println("w - WiFi reconnect");
         Serial.println("f - Firebase reconnect");
-        Serial.println("b - Battery check");
+        Serial.println("b - Battery check");  // can either use 'b' to read voltage or 'B' to display status
+        Serial.println("B - Show battery status");    // can either use 'B' to read voltage or 'b' to display status
         Serial.println("z - Test sensors");
         break;
         
@@ -1882,7 +1910,7 @@ void handleSerialCommands() {
         }
         break;
         
-      case 'b': // Battery check
+      case 'b': // Battery check, you can also use 'B' to display status
         readBatteryVoltage();
         checkSolarCharging();
         Serial.printf("Battery: %.2fV (%.1f%%)\n", batteryData.voltage, batteryData.percentage);
@@ -1893,6 +1921,11 @@ void handleSerialCommands() {
         }
         break;
         
+        case 'B': // Show battery status you can also use 'b' to read voltage
+          displayBatteryStatus();
+        break;
+
+
       case 'z': // Test sensors
         testAllSensors();
         break;
